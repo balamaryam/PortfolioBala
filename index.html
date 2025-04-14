@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baladhandayuthabani P | Aspiring Actuary</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #2c3e50;
+        --secondary: #3498db;
+        --accent: #e74c3c;
+        --light: #ecf0f1;
+        --dark: #2c3e50;
+      }
+      body {
+        font-family: "Lato", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: var(--primary);
+        color: white;
+        padding: 2rem 0;
+        text-align: center;
+      }
+      .container {
+        width: 85%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Montserrat", sans-serif;
+      }
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .tagline {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+      }
+      .btn {
+        display: inline-block;
+        background: var(--secondary);
+        color: white;
+        padding: 0.7rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        margin: 0.5rem;
+      }
+      .btn:hover {
+        background: #2980b9;
+      }
+      .btn-outline {
+        background: transparent;
+        border: 2px solid var(--secondary);
+        color: var(--secondary);
+      }
+      .btn-outline:hover {
+        background: var(--secondary);
+        color: white;
+      }
+      .btn-project {
+        background: var(--accent);
+        margin-top: 1rem;
+        display: inline-block;
+      }
+      .btn-project:hover {
+        background: #c0392b;
+      }
+      section {
+        padding: 3rem 0;
+      }
+      .section-title {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: var(--primary);
+      }
+      .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 3rem;
+      }
+      .profile-photo {
+        flex: 1;
+        min-width: 250px;
+        max-width: 300px;
+        text-align: center;
+        order: 2;
+      }
+      .profile-photo img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid var(--light);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+      .about-text {
+        flex: 2;
+        min-width: 300px;
+        order: 1;
+      }
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .skill-tag {
+        background: var(--light);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+      }
+      .projects-grid,
+      .certificates-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+      .project-card,
+      .certificate-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+      .project-card:hover,
+      .certificate-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      .project-content,
+      .certificate-content {
+        padding: 1.5rem;
+      }
+      .download-resume {
+        text-align: center;
+        margin-top: 2rem;
+      }
+      footer {
+        background: var(--dark);
+        color: white;
+        text-align: center;
+        padding: 2rem 0;
+      }
+      .contact-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1rem;
+      }
+      .contact-links a {
+        color: white;
+        text-decoration: none;
+      }
+      @media (max-width: 768px) {
+        .about-content {
+          flex-direction: column;
+        }
+        .profile-photo {
+          order: 1;
+          margin-bottom: 1.5rem;
+        }
+        .about-text {
+          order: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Baladhandayuthabani P</h1>
+        <p class="tagline">Aspiring Actuary | Risk Management Specialist</p>
+        <p>Seeking opportunities in Insurance, Finance, and Risk Management</p>
+        <a href="#contact" class="btn">Contact Me</a>
+        <a
+          href="BALADHANDAYUTHABANI_P(08.04.2025).pdf"
+          class="btn btn-outline"
+          download
+          >Download Resume</a
+        >
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              An ambitious aspiring actuary with a strong academic background in
+              Actuarial Science and hands-on experience in various actuarial
+              projects. Currently pursuing M.Sc. in Actuarial Science from
+              University of Mumbai with a CGPA of 8.0.
+            </p>
+            <p>
+              Passionate about applying statistical and mathematical models to
+              solve real-world problems in insurance and finance. Committed to
+              continuous learning and professional development in the actuarial
+              field.
+            </p>
+
+            <h3>Technical Skills</h3>
+            <div class="skills">
+              <span class="skill-tag">MS Office</span>
+              <span class="skill-tag">Microsoft Excel</span>
+              <span class="skill-tag">R-programming</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Actuarial Modeling</span>
+              <span class="skill-tag">Risk Assessment</span>
+            </div>
+
+            <h3>Soft Skills</h3>
+            <div class="skills">
+              <span class="skill-tag">Team Player</span>
+              <span class="skill-tag">Leadership</span>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Adaptability</span>
+              <span class="skill-tag">Communication</span>
+              <span class="skill-tag">Attention to Detail</span>
+            </div>
+
+            <div class="download-resume">
+              <a
+                href="BALADHANDAYUTHABANI_P(08.04.2025).pdf"
+                class="btn"
+                download
+                >Download Full Resume (PDF)</a
+              >
+            </div>
+          </div>
+          <div class="profile-photo">
+            <img
+              src="profile-photo.jpeg"
+              alt="Bala Dhan Dayuthabani Professional Photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" style="background: #f9f9f9">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div style="max-width: 800px; margin: 0 auto">
+          <div style="margin-bottom: 2rem">
+            <h3>University of Mumbai</h3>
+            <p><strong>M.Sc. Actuarial Science</strong> (2023-2025)</p>
+            <p>Aggregate CGPA: 7.71</p>
+            <p>Actuarial papers: CB2, CS1</p>
+          </div>
+
+          <div style="margin-bottom: 2rem">
+            <h3>Bishop Heber College, Trichy</h3>
+            <p><strong>B.Sc. Actuarial Science</strong> (2020-2023)</p>
+            <p>CGPA: 8.03</p>
+          </div>
+
+          <div style="margin-bottom: 2rem">
+            <h3>SVM Hr Sec School, Paluvoor</h3>
+            <p><strong>12th Grade</strong> - 71%</p>
+            <p><strong>10th Grade</strong> - 85%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certificates-grid">
+          <!-- IFoA Scholar -->
+          <div class="certificate-card">
+            <div class="certificate-content">
+              <h3>IFoA Scholar 2024</h3>
+              <p>
+                Awarded by the Institute and Faculty of Actuaries (IFoA) for
+                academic excellence in actuarial studies.
+              </p>
+              <a
+                href="IFoA 2024 South Asia scholarship certificate Baladhandayuthabani Palaniyandi.pdf"
+                class="btn btn-project"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <!-- Introduction to Microsoft Excel -->
+          <div class="certificate-card">
+            <div class="certificate-content">
+              <h3>Introduction to Microsoft Excel</h3>
+              <p>
+                Completed comprehensive training in Excel functions, formulas,
+                and data analysis techniques.
+              </p>
+              <a href="Coursera 8D5E4NHJ289B (1).pdf" class="btn btn-project"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <!-- Actuarial Analyst Virtual Job Simulation -->
+          <div class="certificate-card">
+            <div class="certificate-content">
+              <h3>Actuarial Analyst Virtual Job Simulation</h3>
+              <p>
+                Completed practical simulation covering key actuarial tasks
+                including pricing, reserving, and risk assessment.
+              </p>
+              <a href="Coursera 8D5E4NHJ289B (1).pdf" class="btn btn-project"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <!-- CS1 - Actuarial Statistics -->
+          <div class="certificate-card">
+            <div class="certificate-content">
+              <h3>CS1 - Actuarial Statistics</h3>
+              <p>
+                Completed actuarial statistics course covering probability,
+                statistical models, and estimation methods.
+              </p>
+              <a href="Untitled.pdf" class="btn btn-project"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" style="background: #f9f9f9">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Run-off Triangle Project -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Run-off Triangle Analysis</h3>
+              <p>
+                Utilized the Basic Chain Ladder Method to estimate ultimate
+                loss. Constructed loss triangles to determine gross ultimate
+                loss and analyze loss development trends.
+              </p>
+              <p><strong>Tools:</strong> Excel, Actuarial Modeling</p>
+              <a
+                href="https://drive.google.com/drive/folders/1h4gS1awwIJAGQjW3Yl08695GrrpVMsPl"
+                target="_blank"
+                class="btn btn-project"
+              >
+                View Project Files
+              </a>
+            </div>
+          </div>
+
+          <!-- Graduation using R -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Graduation using R-programming</h3>
+              <p>
+                Performed graduation on crude rates using R and conducted
+                statistical tests (Chi-squared, signs test) to check for
+                smoothness and adherence to data.
+              </p>
+              <p>
+                <strong>Skills:</strong> R Programming, Statistical Analysis
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1h965wKdUF_8Pjc82vYKRg0R45Xdr1eyb"
+                target="_blank"
+                class="btn btn-project"
+              >
+                View Project Files
+              </a>
+            </div>
+          </div>
+
+          <!-- Transition Matrix -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Transition Matrix for Telecom Churn</h3>
+              <p>
+                Applied Markov chain concepts to forecast customer retention
+                over two years and assess long-term market shares based on
+                transition probabilities using telecom data.
+              </p>
+              <p><strong>Tools:</strong> Excel, Data Analysis</p>
+              <a
+                href="https://drive.google.com/drive/folders/1hFxn5LFlBGBMRfSSep1iV6vPJwkk8FYQ"
+                target="_blank"
+                class="btn btn-project"
+              >
+                View Project Files
+              </a>
+            </div>
+          </div>
+
+          <!-- Term Insurance -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Term Insurance Product Pricing</h3>
+              <p>
+                Calculated annual premium, reserves, cost of increase in
+                reserve, and DSAR for term insurance products under various
+                assumptions, with visual comparisons.
+              </p>
+              <p>
+                <strong>Skills:</strong> Insurance Pricing, Financial Modeling
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1hUQMKxkeM_Z_N2R9F_QPhhMMoG16fkBS"
+                target="_blank"
+                class="btn btn-project"
+              >
+                View Project Files
+              </a>
+            </div>
+          </div>
+
+          <!-- Callable and Puttable Bonds -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Callable and Puttable Bond Pricing</h3>
+              <p>
+                Created an Excel model for pricing 8% Cleantech Solar Energy
+                bonds, including all calculations and presentation materials.
+              </p>
+              <p>
+                <strong>Skills:</strong> Financial Instruments, Excel Modeling
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1hrivYavABQRhMnRIXZGYg4G6GECUXcud"
+                target="_blank"
+                class="btn btn-project"
+              >
+                View Project Files
+              </a>
+            </div>
+          </div>
+
+          <!-- Health Investment Account -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Health Investment Account</h3>
+              <p>
+                Designed a health investment product covering future health
+                premiums and healthcare expenses that could solve the problem of
+                emergency medical fund and financial stress.
+              </p>
+              <p>
+                <strong>Skills:</strong> Product Design, Risk Assessment,
+                Financial Planning
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1htsV4_n-44ZvUdsrxzuiwK0yMnLSGddr"
+                target="_blank"
+                class="btn btn-project"
+              >
+                View Project Files
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div style="text-align: center; max-width: 600px; margin: 0 auto">
+          <p>Actuarial Analyst.</p>
+
+          <div style="margin-top: 2rem">
+            <p><strong>Email:</strong> arunbala401@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9344182826</p>
+            <p><strong>Location:</strong> Andheri West, Mumbai</p>
+
+            <div class="contact-links">
+              <a
+                href="https://www.linkedin.com/in/baladhan-dayuthabani-p-829085201/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Bala Dhan Dayuthabani P. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
